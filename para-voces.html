@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Para a Dra. Kelly e o Dr. Victor</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b0a09">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="fontes.css">
+<link rel="stylesheet" href="style.css">
+<style>
+  html { scroll-snap-type: y proximity; scroll-padding-top: 0; }
+  .tela { min-height: 100svh; scroll-snap-align: start; display: flex; flex-direction: column; justify-content: center; gap: clamp(20px, 3vh, 32px); padding: clamp(48px, 8vh, 80px) var(--margem); border-bottom: 1px solid var(--linha); }
+  .tela > * { width: 100%; max-width: 980px; margin-inline: auto; }
+  .tela h1, .tela h2 { color: var(--claro); font: 400 clamp(36px, 6vw, 80px)/1.05 var(--sans); letter-spacing: -.035em; }
+  .tela h1 em, .tela h2 em { color: var(--texto); font-style: normal; }
+  .tela > p { color: var(--texto); font-size: clamp(18px, 2vw, 22px); line-height: 1.5; }
+  .tela small { color: var(--apagado); font-size: 13px; }
+  .tela-logo { width: 62px; margin-inline: auto 0; margin-left: max(0px, calc(50% - 490px)); }
+  .numeros { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--linha); }
+  .numeros div { padding: 16px 8px 16px 0; border-bottom: 1px solid var(--linha); }
+  .numeros dt { color: var(--claro); font: 400 clamp(34px, 4.6vw, 60px)/1.05 var(--sans); letter-spacing: -.03em; }
+  .numeros dd { font-size: 14px; overflow-wrap: anywhere; }
+  .print { overflow: hidden; border-radius: var(--raio); background: var(--carvao); }
+  .print img { width: 100%; }
+  .print figcaption { padding: 12px 16px; font-size: 14px; }
+  .prints { display: grid; gap: 16px; }
+  .passos { display: grid; border-top: 1px solid var(--linha); }
+  .passos a { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 76px; padding-block: 14px; border-bottom: 1px solid var(--linha); color: var(--claro); font-size: clamp(17px, 2vw, 21px); line-height: 1.35; }
+  .passos a:hover .seta-redonda { background: var(--ouro); color: var(--noite); }
+  .fim-acoes { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; }
+  @media (min-width: 760px) { .numeros { grid-template-columns: repeat(4, minmax(0, 1fr)); } .prints { grid-template-columns: repeat(2, minmax(0, 1fr)); } .dupla-print { display: grid; grid-template-columns: 5fr 4fr; gap: 16px; align-items: start; } }
+  .dupla-print { display: grid; gap: 16px; }
+</style>
+</head>
+<body>
+<!-- Apresentação para a reunião. Não linkar no site. Conferir os números nos perfis antes de mostrar.
+     Prints opcionais em img/prints/: bitly.png, google-melasma.png, google-dermatologista.png, google-cirurgiao.png.
+     Print ausente some; sem nenhum print do Google, a tela da busca não aparece. -->
+<main>
+  <section class="tela">
+    <img class="tela-logo" src="img/web/monograma.webp" alt="" width="759" height="551">
+    <h1>Vocês já construíram<br><em>a reputação.</em></h1>
+    <dl class="numeros">
+      <div><dt data-conta="15.4" data-sufixo=" mil">15,4 mil</dt><dd>@drvictornassri</dd></div>
+      <div><dt data-conta="7.2" data-sufixo=" mil">7,2 mil</dt><dd>@drakellynassri</dd></div>
+      <div><dt data-conta="6.7" data-sufixo=" mil">6,7 mil</dt><dd>@clinicanassri</dd></div>
+      <div><dt>2.758</dt><dd>publicações somadas</dd></div>
+    </dl>
+    <small>Seguidores em cada perfil público. A mesma pessoa pode seguir mais de um.</small>
+  </section>
+
+  <section class="tela">
+    <h2>Todo esse trabalho leva a <em>um link encurtado.</em></h2>
+    <div class="dupla-print">
+      <figure class="print"><img src="img/web/ig-bio.webp" alt="Perfil da clínica no Instagram, com o link bit.ly/clinicanassri" width="622" height="205"><figcaption>O link da clínica e do Dr. Victor no Instagram.</figcaption></figure>
+      <figure class="print" data-opcional><img src="img/prints/bitly.png" alt="Página aberta pelo link bit.ly/clinicanassri"><figcaption>Onde esse link chega hoje.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="tela" id="busca">
+    <h2>E quem ainda não conhece vocês <em>começa no Google.</em></h2>
+    <div class="prints">
+      <figure class="print" data-opcional><img src="img/prints/google-melasma.png" alt="Resultados do Google para melasma Itabuna"><figcaption>"melasma Itabuna"</figcaption></figure>
+      <figure class="print" data-opcional><img src="img/prints/google-dermatologista.png" alt="Resultados do Google para dermatologista Itabuna"><figcaption>"dermatologista Itabuna"</figcaption></figure>
+      <figure class="print" data-opcional><img src="img/prints/google-cirurgiao.png" alt="Resultados do Google para cirurgião plástico Itabuna"><figcaption>"cirurgião plástico Itabuna"</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="tela">
+    <h2>O conteúdo existe. <em>Só não fica à vista.</em></h2>
+    <div class="dupla-print">
+      <figure class="print"><img src="img/web/ig-feed.webp" alt="Feed da Dra. Kelly, com um post de Halloween ao lado do artigo na JID Innovations" width="436" height="290"><figcaption>No feed, tudo ocupa o mesmo espaço, e cada post desce quando entra um novo.</figcaption></figure>
+      <figure class="print"><img src="img/web/ig-destaques.webp" alt="Destaques da Dra. Kelly: Melasma, Dúvidas, Procedimentos, Ultraformer III e Skinbooster" width="617" height="108"><figcaption>Melasma, dúvidas e procedimentos estão guardados nos destaques.</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="tela">
+    <h2>Com o site, tudo isso <em>ganha endereço.</em></h2>
+    <nav class="passos" aria-label="Ver no site">
+      <a href="index.html#qual-medico"><span>O paciente diz o que procura e a mensagem sai pronta para a recepção</span><i class="seta-redonda" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor"/></svg></i></a>
+      <a href="melasma.html"><span>Cada tema tem uma página própria, que pode ser encontrada na busca</span><i class="seta-redonda" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor"/></svg></i></a>
+      <a href="index.html#formacao"><span>A formação e o artigo ficam fixos, sem descer no feed</span><i class="seta-redonda" aria-hidden="true"><svg viewBox="0 0 16 16" width="12" height="12"><path d="M1 8h13M9 3l5 5-5 5" fill="none" stroke="currentColor"/></svg></i></a>
+    </nav>
+  </section>
+
+  <section class="tela">
+    <h2>Falta um lugar <em>à altura do que vocês construíram.</em></h2>
+    <div class="fim-acoes"><a class="botao" href="index.html">Abrir o site</a></div>
+  </section>
+</main>
+<script>
+  (function () {
+    /* Print que não existe sai da tela, sem deixar espaço vazio */
+    var opcionais = Array.prototype.slice.call(document.querySelectorAll("[data-opcional] img"));
+    var busca = document.getElementById("busca");
+    function revisar() { if (!busca.querySelector("[data-opcional]")) busca.remove(); }
+    opcionais.forEach(function (img) {
+      function tirar() { img.closest("figure").remove(); revisar(); }
+      img.addEventListener("error", tirar);
+      if (img.complete && !img.naturalWidth) tirar();
+    });
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    /* Cada tela entra em sequência quando chega */
+    if ("IntersectionObserver" in window) {
+      var telas = new IntersectionObserver(function (itens) {
+        itens.forEach(function (i) {
+          if (!i.isIntersecting) return;
+          telas.unobserve(i.target);
+          Array.prototype.forEach.call(i.target.children, function (el) { el.classList.add("visto"); });
+        });
+      }, { threshold: .2 });
+      Array.prototype.forEach.call(document.querySelectorAll(".tela"), function (t) {
+        Array.prototype.forEach.call(t.children, function (el, n) {
+          el.classList.add("sobe");
+          el.style.transitionDelay = n * 140 + "ms";
+        });
+        telas.observe(t);
+      });
+    }
+
+    /* Os números sobem uma vez, ao abrir */
+    var alvos = Array.prototype.slice.call(document.querySelectorAll("[data-conta]"));
+    var t0 = performance.now();
+    (function passo(t) {
+      var p = Math.min(1, (t - t0) / 1400);
+      var e = 1 - Math.pow(1 - p, 4);
+      alvos.forEach(function (a) {
+        a.textContent = (parseFloat(a.dataset.conta) * e).toFixed(1).replace(".", ",") + a.dataset.sufixo;
+      });
+      if (p < 1) requestAnimationFrame(passo);
+    })(t0);
+  })();
+</script>
+</body>
+</html>
